@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.logo {
+    max-width: 5px;
+    height: auto;
+}
+.login {
+    margin-left: auto;
+}
+.query-form {
+    margin: 20px auto;
+    text-align: center;
+}
+.query-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+.query-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.logo-img {
+max-width: 150px; /* Adjust the maximum width as needed */
+max-height: 150px; /* Adjust the maximum height as needed */
+}
+
