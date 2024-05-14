@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APT</title>
-	<link href="{{ asset('css/style.css')}}" rel="stylesheet">
-
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
 </head>
 <body>
     <div class="logo">
         <img src="{{ asset('img/ampito-logo.png') }}" alt="Company Logo" class="logo-img">
     </div>
-    
 
     <div class="query-form">
         <h1 style="color:black">My Quotations</h1>
@@ -35,10 +33,14 @@
             <p>No search results found.</p>
         @endif
     </div>
-    
 
-
-
+    <div class="errors">
+        @if(session('error'))
+            <div class="error-message">
+                {{ session('error') }}
+            </div>
+        @endif
+    </div>
 
 </body>
 </html>
